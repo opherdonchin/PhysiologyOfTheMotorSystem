@@ -15,7 +15,7 @@ question is presented when the instructor asks for review.
 
 | ID | Owning document | Work awaiting decision | Status |
 |---|---|---|---|
-| Q1 | [Coordinator duties and boundaries](principles-and-questions.md#q1-coordinator-duties-and-boundaries) | Define coordinator duties and boundaries | open; not yet investigated |
+| Q1 | [Coordinator duties and boundaries](principles-and-questions.md#q1-coordinator-duties-and-boundaries--accepted-2026-10-17) | Design of two coordinators, shared rules and branch governance | **design resolved 2026-10-17**; implementation on `feat/workflow-q1-coordinators`, awaiting merge authorization |
 | Q2 | [Goals and scientific literacy](principles-and-questions.md#q2-goals-and-scientific-literacy) | Represent goals, objectives, scientific-literacy progression | open; not yet investigated |
 | Q3 | [Lecture vs. paper-discussion workflows](principles-and-questions.md#q3-lecture-vs-paper-discussion-workflows) | Decide distinct workflows and stages | open; not yet investigated |
 | Q4 | [Shared artifact skills](principles-and-questions.md#q4-shared-artifact-skills) | Decide skills needed and their review | open; not yet investigated |
