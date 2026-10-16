@@ -21,5 +21,5 @@ instructor instruction.
 These apply during initialization only and lapse for a given item when the
 instructor explicitly authorizes it; they are not permanent policy:
 
-- Do not import copyrighted readings, classroom transcripts or previous slides. Import will be considered when the instructor authorizes it and source authority (Q5) is settled.
+- Do not import copyrighted readings, classroom transcripts or previous slides. Import requires an instructor-authorized scope and appropriate consideration of source rights and privacy (see Q5).
 - Do not implement the Course Coordinator or specialist skills, copy the PML pipeline, or install HILD.
