@@ -19,6 +19,7 @@ course goals/pedagogy (Q2), remain open.
 - [`docs/principles-and-questions.md`](docs/principles-and-questions.md) - accepted principles, reused PML conventions, and open questions.
 - [`docs/instructor-review-queue.md`](docs/instructor-review-queue.md) - index of unresolved instructor decisions.
 - [`docs/branch-register.md`](docs/branch-register.md) - best-effort record of coordinator-created branches.
+- [`docs/pml-reference.md`](docs/pml-reference.md) - exact PML source commit, historical precedents and local adaptations.
 - [`course-development`](.agents/skills/course-development/SKILL.md) - course-wide coordinator skill.
 - [`meeting-development`](.agents/skills/meeting-development/SKILL.md) - shared meeting coordinator for the future distinct lecture and paper workflows.
 - [`shared/coordination.md`](.agents/skills/shared/coordination.md) - delegation, handoffs, reviews, authority and Git conventions.
@@ -33,5 +34,5 @@ and remain under their own terms.
 
 ## Reference repositories
 
-- [ProbabilisticMachineLearning (PML)](https://github.com/opherdonchin/ProbabilisticMachineLearning) - reference architecture for the course-development process; conventions reused here are listed in [`docs/principles-and-questions.md`](docs/principles-and-questions.md#pml-conventions-reused).
+- [ProbabilisticMachineLearning (PML) at pinned commit](https://github.com/opherdonchin/ProbabilisticMachineLearning/tree/8889ac0a433a784482a7ecf0931a006e3965bd6e) - **historical design reference only**, not a runtime dependency; see [source-by-source provenance](docs/pml-reference.md) and [locally accepted conventions](docs/principles-and-questions.md#pml-conventions-reused).
 - [HILD](https://github.com/Motor-Learning-Lab/HILD) - process for developing scientific software. Not installed here; its governance principles may inform later decisions.
