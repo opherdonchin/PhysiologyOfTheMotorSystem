@@ -6,16 +6,22 @@ AI-assisted processes used to develop its instructional materials.
 
 ## Status
 
-The existing course is complete (syllabus, textbook chapters, research papers,
-slide decks, assignments, lecture recordings/transcripts). We are currently
-**designing the development process**, not redesigning the course. No
-coordinator or specialist skills are implemented yet.
+The previous course has a syllabus, textbook chapters, research papers,
+slide decks, assignments and recordings/transcripts. We are currently
+**developing the course-development process**, not redesigning the course.
+The Q1 Course and Meeting Coordinator skills and shared governance are in place.
+The two instructional workflows and reusable artifact skills (Q3/Q4), and
+course goals/pedagogy (Q2), remain open.
 
 ## Contents
 
 - [`AGENTS.md`](AGENTS.md) - brief guidance for agents working in this repository.
 - [`docs/principles-and-questions.md`](docs/principles-and-questions.md) - accepted principles, reused PML conventions, and open questions.
 - [`docs/instructor-review-queue.md`](docs/instructor-review-queue.md) - index of unresolved instructor decisions.
+- [`docs/branch-register.md`](docs/branch-register.md) - best-effort record of coordinator-created branches.
+- [`course-development`](.agents/skills/course-development/SKILL.md) - course-wide coordinator skill.
+- [`meeting-development`](.agents/skills/meeting-development/SKILL.md) - shared meeting coordinator for the future distinct lecture and paper workflows.
+- [`shared/coordination.md`](.agents/skills/shared/coordination.md) - delegation, handoffs, reviews, authority and Git conventions.
 
 ## License
 
