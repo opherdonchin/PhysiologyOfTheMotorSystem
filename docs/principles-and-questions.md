@@ -2,7 +2,7 @@
 
 ## Accepted starting constraints
 
-1. **Central Course Coordinator.** A central agentic coordinator will oversee development and coordination of course materials and maintain course-wide coherence. Its detailed responsibilities and implementation remain to be developed with the instructor.
+1. **Central Course Coordinator.** A central agentic coordinator oversees development and coordination of course materials and course-wide coherence; its responsibilities and implementation are specified by the accepted Q1 design below.
 2. **Instructor control.** Work is initiated by the instructor or follows directly from needs revealed by instructor-initiated work. The coordinator surfaces issues, preferably with evidence, possible solutions and recommendations. It may apply a solution without asking only when there is one obvious solution, and it must report that action. All consequential choices, or choices among meaningful alternatives, require specific instructor approval. Silence is not approval.
 3. **Agentic review.** Meaningful development stages receive agentic feasibility or quality review, preferably independent where supported. Preserve PML's distinction between build, feasibility-review and revision, its backpressure principles, and its separation of agent assessment from instructor acceptance. Review effort is proportionate to the task.
 4. **Two kinds of class development.** Textbook-oriented lectures and research-paper-oriented discussions require distinct instructional-development skills. Their stages are not yet decided.
@@ -15,7 +15,7 @@
 
 ## PML conventions reused
 
-Read from [ProbabilisticMachineLearning](https://github.com/opherdonchin/ProbabilisticMachineLearning) (`AGENTS.md`, `.agents/skills/course-development/SKILL.md`, `.agents/skills/lecture-development/SKILL.md`, `.agents/skills/shared/backpressure.md`, `Lectures/course_architecture_scope/reconciliation/instructor_review_queue.md`). These are adopted as conventions for the review queue and for how future processes will record state. No PML skill or pipeline has been copied.
+Read from [ProbabilisticMachineLearning](https://github.com/opherdonchin/ProbabilisticMachineLearning) (`AGENTS.md`, `.agents/skills/course-development/SKILL.md`, `.agents/skills/lecture-development/SKILL.md`, `.agents/skills/shared/backpressure.md`, `Lectures/course_architecture_scope/reconciliation/instructor_review_queue.md`). These are adopted as conventions for the review queue and persistent state, and PML's two-level coordinator architecture has now been adapted under Q1. No specialized PML lecture or artifact pipeline has been copied.
 
 - **Queue is an index, not an authority.** Questions, options, recommendation and evidence live in the owning document; the queue links to them and records status. Accepted answers are recorded in the owner, then the queue records resolution by link.
 - **Silence is not approval;** instructor approval must be explicit or already documented. Only the instructor makes consequential decisions; agents may record a decision and mark its question resolved in the owning artifact once explicit approval is documented there. Agent review, favorable automated review or a specialist's self-declared completion is not approval.
@@ -29,18 +29,29 @@ Read from [ProbabilisticMachineLearning](https://github.com/opherdonchin/Probabi
 
 Reusing a convention above does not decide the following, which stay open:
 
-- Whether and where a `development_state.md`-style register is used here, and its format (part of Q1/Q3).
-- The stage structure and specialist roles for lectures, paper discussions and artifacts (Q3, Q4); PML's lecture stages (Scope, Section Design, Slide Organization/Design/Authoring) are not adopted.
-- Coordinator duties and its relation to specialists (Q1).
-- Branch-naming and lifecycle rules (PML `docs/branch-management.md`), authority documents and curriculum maps (Q7).
+- Specific meeting-local state locations/formats and the stage structure and specialist roles for lectures, paper discussions and artifacts (Q3, Q4); PML's five lecture stages are not adopted.
+- Course goals, learning-objective representation and the scientific-literacy progression (Q2).
+- Source-authority policy (Q5), evaluation of prior meetings (Q6), and the eventual course-level authority document/map formats and other useful PML conventions (Q7).
+- Branch *naming conventions* may evolve with experience; Q1 already settles creation/merge authority and the lightweight branch register.
 
 ## Open questions
 
-Status of all questions: open. Each is indexed in the [instructor review queue](instructor-review-queue.md). Options, recommendations and evidence are added under each question as it is investigated.
+Q1's architectural design is agreed; Q2–Q7 remain open. Each is indexed in the [instructor review queue](instructor-review-queue.md). Options, recommendations and evidence are added under each question as it is investigated.
 
-### Q1. Coordinator duties and boundaries
+### Q1. Coordinator duties and boundaries — accepted 2026-10-17
 
-How are the coordinator's detailed duties and boundaries defined?
+**Design status: resolved by explicit instructor discussion.** Implemented on the branch `feat/workflow-q1-coordinators`, pending separate permission to merge. The design is recorded here; software implementation and integration are distinct from instructor acceptance of pedagogical content.
+
+- **Two coordinators:** Course Development handles course-wide resource gathering, course-architecture development/revision with the instructor, authoritative records, coherence and priorities. Meeting Development handles individual class meetings and chooses between the **distinct** textbook lecture and paper discussion workflows when those are defined under Q3. Both may commission shared artifact skills when Q4 defines them.
+- **Direct intellectual responsibility:** Course Development itself develops course-level proposals and manages resources. It may delegate web research, reading, evidence summaries and document drafting; no separate course-architecture or resource-management coordinator is required. Course goals, educational methods and source-authority choices remain open for Q2/Q5 and instructor approval.
+- **Conversation ownership is local to each chat:** Multiple chats can have different coordinators simultaneously. The coordinator managing a chat remains the instructor-facing conversation owner, even when it commissions substantive work from another coordinator at any level. Work ownership, conversation ownership and decision authority remain separate. A transfer of conversation is **recommended** when materially useful, and only undertaken with instructor agreement.
+- **Flexible delegation:** Any coordinator can commission another, above or below it, using a bounded task envelope. The commissioned coordinator reports to its initiator/conversation owner. Consequential decisions remain the instructor's; delegated agents can make technical and other authorized local judgments, with evidence and reporting.
+- **Concurrent work:** Discover other work when feasible, warn about overlapping writes, and reconcile semantic as well as Git conflicts. Do not impose global locks or prohibit instructor-chosen parallel work on the same branch or checkout. Branches are recommended for substantial work but never mandatory.
+- **Branch authority follows the initiator:** A coordinator or delegate requests permission from its task initiator *before creating a branch*, unless already instructed/preauthorized. After creation, agents **commit and push freely**, including intermediate WIP commits. The **same initiating authority** must authorize the merge. Permission to merge is not instructor acceptance of substantive course changes. Course development requires neither issues nor PRs. Maintain the lightweight [branch register](branch-register.md).
+- **Shared protocol:** Common delegation, handoff, authority, persistent-state, independent review, backpressure and Git conventions live in [shared coordination](../.agents/skills/shared/coordination.md), used by both coordinator skills rather than repeated or made a third skill.
+- **PML adaptation:** Preserve PML's independent assessment, three modes (build / feasibility-review / revision), nearest-owner backpressure, deferred instructor decisions, and lightweight persistent state. No specialized PML five-stage lecture pipeline is presumed adopted.
+
+Implementation: [Course Coordinator](../.agents/skills/course-development/SKILL.md) and [Meeting Coordinator](../.agents/skills/meeting-development/SKILL.md). The precise stage/meeting-local state formats and concrete instructional/artifact skills are Q3/Q4 matters.
 
 ### Q2. Goals and scientific literacy
 
