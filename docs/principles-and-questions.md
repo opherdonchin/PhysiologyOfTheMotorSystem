@@ -15,7 +15,7 @@
 
 ## PML conventions reused
 
-Read from [ProbabilisticMachineLearning](https://github.com/opherdonchin/ProbabilisticMachineLearning) (`AGENTS.md`, `.agents/skills/course-development/SKILL.md`, `.agents/skills/lecture-development/SKILL.md`, `.agents/skills/shared/backpressure.md`, `Lectures/course_architecture_scope/reconciliation/instructor_review_queue.md`). These are adopted as conventions for the review queue and persistent state, and PML's two-level coordinator architecture has now been adapted under Q1. No specialized PML lecture or artifact pipeline has been copied.
+The design comparison used PML at the immutable commit [`8889ac0a433a784482a7ecf0931a006e3965bd6e`](https://github.com/opherdonchin/ProbabilisticMachineLearning/tree/8889ac0a433a784482a7ecf0931a006e3965bd6e). [Pinned file-level provenance and the local adaptations](pml-reference.md) are recorded separately. The conventions below now appear explicitly in the **local** coordination instructions; PML is historical evidence, not a source the coordinators must consult at runtime.
 
 - **Queue is an index, not an authority.** Questions, options, recommendation and evidence live in the owning document; the queue links to them and records status. Accepted answers are recorded in the owner, then the queue records resolution by link.
 - **Silence is not approval;** instructor approval must be explicit or already documented. Only the instructor makes consequential decisions; agents may record a decision and mark its question resolved in the owning artifact once explicit approval is documented there. Agent review, favorable automated review or a specialist's self-declared completion is not approval.
@@ -31,7 +31,7 @@ Reusing a convention above does not decide the following, which stay open:
 
 - Specific meeting-local state locations/formats and the stage structure and specialist roles for lectures, paper discussions and artifacts (Q3, Q4); PML's five lecture stages are not adopted.
 - Course goals, learning-objective representation and the scientific-literacy progression (Q2).
-- Source-authority policy (Q5), evaluation of prior meetings (Q6), and the eventual course-level authority document/map formats and other useful PML conventions (Q7).
+- Source-authority policy (Q5), evaluation of prior meetings (Q6), and final course-level authority document/map formats and other useful PML conventions (Q7). The Course Coordinator suggests an explicit goals/architecture/planned/actual document ownership model; filenames and content are **proposals**, not accepted curriculum decisions.
 - Branch *naming conventions* may evolve with experience; Q1 already settles creation/merge authority and the lightweight branch register.
 
 ## Open questions
@@ -49,7 +49,7 @@ Q1's architectural design is agreed; Q2–Q7 remain open. Each is indexed in the
 - **Concurrent work:** Discover other work when feasible, warn about overlapping writes, and reconcile semantic as well as Git conflicts. Do not impose global locks or prohibit instructor-chosen parallel work on the same branch or checkout. Branches are recommended for substantial work but never mandatory.
 - **Branch authority follows the initiator:** A coordinator or delegate requests permission from its task initiator *before creating a branch*, unless already instructed/preauthorized. After creation, agents **commit and push freely**, including intermediate WIP commits. The **same initiating authority** must authorize the merge. Permission to merge is not instructor acceptance of substantive course changes. Course development requires neither issues nor PRs. Maintain the lightweight [branch register](branch-register.md).
 - **Shared protocol:** Common delegation, handoff, authority, persistent-state, independent review, backpressure and Git conventions live in [shared coordination](../.agents/skills/shared/coordination.md), used by both coordinator skills rather than repeated or made a third skill.
-- **PML adaptation:** Preserve PML's independent assessment, three modes (build / feasibility-review / revision), nearest-owner backpressure, deferred instructor decisions, and lightweight persistent state. No specialized PML five-stage lecture pipeline is presumed adopted.
+- **Review and provenance:** Keep independent assessment, three modes (build / feasibility-review / revision), nearest-owner backpressure, deferred instructor decisions, and lightweight persistent state. These are specified locally. PML's exact source commit and adapted precedents are in [the historical reference](pml-reference.md); PML's five-stage lecture pipeline has not been adopted.
 
 Implementation: [Course Coordinator](../.agents/skills/course-development/SKILL.md) and [Meeting Coordinator](../.agents/skills/meeting-development/SKILL.md). The precise stage/meeting-local state formats and concrete instructional/artifact skills are Q3/Q4 matters.
 
