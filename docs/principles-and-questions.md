@@ -38,7 +38,7 @@ Reusing a convention above does not decide the following, which stay open:
 
 Q1's architectural design is agreed; Q2–Q7 remain open. Each is indexed in the [instructor review queue](instructor-review-queue.md). Options, recommendations and evidence are added under each question as it is investigated.
 
-### Q1. Coordinator duties and boundaries — accepted 2026-10-17
+### Q1. Coordinator duties and boundaries
 
 **Design status: resolved by explicit instructor discussion.** Implemented on the branch `feat/workflow-q1-coordinators`, pending separate permission to merge. The design is recorded here; software implementation and integration are distinct from instructor acceptance of pedagogical content.
 
