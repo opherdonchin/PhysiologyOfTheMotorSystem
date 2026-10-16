@@ -2,7 +2,7 @@
 
 This is a **reference protocol**, not a separately invoked skill. The Course Development and Meeting Development coordinators both read it before delegating work, managing concurrent development, or arranging a handoff. Their own skills specify *what* they coordinate; this file specifies *how* they cooperate.
 
-Adapted from the PML course-/lecture-development coordination and backpressure model, with the instructor's approved Physiology Q1 decisions taking precedence. Read [the accepted principles](../../../docs/principles-and-questions.md) as well.
+Follow [the accepted principles](../../../docs/principles-and-questions.md) and the rules below. [Historical PML design provenance](../../../docs/pml-reference.md) is pinned for audit purposes; this local document is the operational authority and does not require consulting PML.
 
 ## Initiation, roles and authority
 
@@ -69,7 +69,7 @@ The register can lag behind actual branches, especially when several conversatio
 
 ## Reviews, backpressure and instructor decisions
 
-Preserve PML's three specialist modes where stages exist:
+Use three explicit specialist modes where development stages exist:
 
 - **Build:** the owning specialist develops its assigned artifact and reports status, risks and decisions required.
 - **Feasibility-review:** a downstream or independent reviewer checks an *identified provisional artifact and revision*, without constructing the next artifact or editing the upstream one. Return a verdict of feasible, feasible-with-risks or blocked, with evidence and limitations.
