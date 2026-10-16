@@ -18,7 +18,7 @@
 Read from [ProbabilisticMachineLearning](https://github.com/opherdonchin/ProbabilisticMachineLearning) (`AGENTS.md`, `.agents/skills/course-development/SKILL.md`, `.agents/skills/lecture-development/SKILL.md`, `.agents/skills/shared/backpressure.md`, `Lectures/course_architecture_scope/reconciliation/instructor_review_queue.md`). These are adopted as conventions for the review queue and for how future processes will record state. No PML skill or pipeline has been copied.
 
 - **Queue is an index, not an authority.** Questions, options, recommendation and evidence live in the owning document; the queue links to them and records status. Accepted answers are recorded in the owner, then the queue records resolution by link.
-- **Silence is not approval;** instructor approval must be explicit or already documented. Agent review, favorable automated review or a specialist's self-declared completion is not approval.
+- **Silence is not approval;** instructor approval must be explicit or already documented. Only the instructor makes consequential decisions; agents may record a decision and mark its question resolved in the owning artifact once explicit approval is documented there. Agent review, favorable automated review or a specialist's self-declared completion is not approval.
 - **Deferred review.** Record instructor-owned choices without resolving them, continue independent work, and present one prioritized question when the instructor asks for review.
 - **Build / feasibility-review / revision** as distinct modes; a reviewer returns an assessment (`feasible`, `feasible-with-risks`, `blocked`) and never grants approval. Disclose when a review was not independent.
 - **Backpressure and decision ownership.** Route an issue to the nearest stage that owns the decision; never silently amend an upstream commitment.
@@ -36,12 +36,32 @@ Reusing a convention above does not decide the following, which stay open:
 
 ## Open questions
 
-Status of all questions: open. Each is indexed in the [instructor review queue](instructor-review-queue.md).
+Status of all questions: open. Each is indexed in the [instructor review queue](instructor-review-queue.md). Options, recommendations and evidence are added under each question as it is investigated.
 
-- **Q1. Coordinator duties and boundaries.** How are the coordinator's detailed duties and boundaries defined?
-- **Q2. Goals and scientific literacy.** How are course goals, learning objectives and the progression of scientific-literacy skills represented?
-- **Q3. Lecture vs. paper-discussion workflows.** What distinct workflows do textbook lectures and paper discussions need?
-- **Q4. Shared artifact skills.** What shared artifact-development skills are needed, and how are they reviewed?
-- **Q5. Source authority.** How is source authority established, including classroom transcripts and existing teaching materials?
-- **Q6. Evaluating existing meetings.** How is the effectiveness of existing class meetings evaluated?
-- **Q7. Further PML reuse.** Which further aspects of PML (beyond those listed above) should be reused or modified?
+### Q1. Coordinator duties and boundaries
+
+How are the coordinator's detailed duties and boundaries defined?
+
+### Q2. Goals and scientific literacy
+
+How are course goals, learning objectives and the progression of scientific-literacy skills represented?
+
+### Q3. Lecture vs. paper-discussion workflows
+
+What distinct workflows do textbook lectures and paper discussions need?
+
+### Q4. Shared artifact skills
+
+What shared artifact-development skills are needed, and how are they reviewed?
+
+### Q5. Source authority
+
+How is source authority established, including classroom transcripts and existing teaching materials? Importing existing materials requires an instructor-authorized scope and appropriate consideration of source rights and privacy; settling all of Q5 is not a prerequisite for every individual import.
+
+### Q6. Evaluating existing meetings
+
+How is the effectiveness of existing class meetings evaluated?
+
+### Q7. Further PML reuse
+
+Which further aspects of PML (beyond those listed above) should be reused or modified?

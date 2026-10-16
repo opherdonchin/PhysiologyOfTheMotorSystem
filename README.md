@@ -19,10 +19,11 @@ coordinator or specialist skills are implemented yet.
 
 ## License
 
-Original material in this repository is licensed under
+Original educational materials and documentation are licensed under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (see [`LICENSE`](LICENSE)).
-This does not cover third-party material such as published readings, which is
-not imported here and remains under its own terms.
+Future scripts and software will be licensed separately under MIT. Third-party
+materials, such as published readings, are excluded from the CC BY license grant
+and remain under their own terms.
 
 ## Reference repositories
 
