@@ -1,15 +1,21 @@
 # Instructor review queue
 
-Items awaiting instructor decision. Each entry points to the question in its
-owning document; do not duplicate the question text here. Silence is not approval.
-Agent assessments do not count as acceptance; only the instructor closes an item.
+A compact index of unresolved instructor decisions, not another authority. Each
+linked owning document contains the question, options, recommendation and
+evidence. Accepted answers are recorded in the owning document; this index then
+records resolution by link. Silence is not approval, and agent assessment is not
+acceptance; only the instructor resolves an item.
 
-| ID | Item | Owner document | Status |
-|----|------|----------------|--------|
-| R1 | Coordinator duties and boundaries | [Q1](principles-and-questions.md#open-questions) | open |
-| R2 | Course goals, objectives, scientific-literacy progression | [Q2](principles-and-questions.md#open-questions) | open |
-| R3 | Lecture vs. paper-discussion workflows | [Q3](principles-and-questions.md#open-questions) | open |
-| R4 | Shared artifact skills and their review | [Q4](principles-and-questions.md#open-questions) | open |
-| R5 | Source authority | [Q5](principles-and-questions.md#open-questions) | open |
-| R6 | Evaluating existing class meetings | [Q6](principles-and-questions.md#open-questions) | open |
-| R7 | Further reuse of PML (blocked: PML inaccessible) | [Q7](principles-and-questions.md#open-questions) | open |
+Operating convention (reused from PML): questions are collected without
+interrupting the instructor, independent work continues, and one prioritized
+question is presented when the instructor asks for review.
+
+| ID | Owning document | Work awaiting decision | Status |
+|---|---|---|---|
+| Q1 | [Coordinator duties and boundaries](principles-and-questions.md#open-questions) | Define coordinator duties and boundaries | open; no option proposed |
+| Q2 | [Goals and scientific literacy](principles-and-questions.md#open-questions) | Represent goals, objectives, scientific-literacy progression | open; no option proposed |
+| Q3 | [Lecture vs. paper-discussion workflows](principles-and-questions.md#open-questions) | Decide distinct workflows and stages | open; no option proposed |
+| Q4 | [Shared artifact skills](principles-and-questions.md#open-questions) | Decide skills needed and their review | open; no option proposed |
+| Q5 | [Source authority](principles-and-questions.md#open-questions) | Establish authority of transcripts and existing materials | open; blocks any import |
+| Q6 | [Evaluating existing meetings](principles-and-questions.md#open-questions) | Decide how effectiveness is evaluated | open; no option proposed |
+| Q7 | [Further PML reuse](principles-and-questions.md#open-questions) | Decide what else to reuse or modify | open; see [open decisions](principles-and-questions.md#decisions-that-remain-open) |

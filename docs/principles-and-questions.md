@@ -13,9 +13,30 @@
 9. **Reuse versus generation.** Existing resources, written or video, are evaluated alongside newly generated ones. Selection depends on suitability, not a general preference.
 10. **No premature curriculum decisions.** The instructor is open-minded about how much of the existing course should change. The process supports considered decisions and does not assume conservative revision or substantial redesign.
 
+## PML conventions reused
+
+Read from [ProbabilisticMachineLearning](https://github.com/opherdonchin/ProbabilisticMachineLearning) (`AGENTS.md`, `.agents/skills/course-development/SKILL.md`, `.agents/skills/lecture-development/SKILL.md`, `.agents/skills/shared/backpressure.md`, `Lectures/course_architecture_scope/reconciliation/instructor_review_queue.md`). These are adopted as conventions for the review queue and for how future processes will record state. No PML skill or pipeline has been copied.
+
+- **Queue is an index, not an authority.** Questions, options, recommendation and evidence live in the owning document; the queue links to them and records status. Accepted answers are recorded in the owner, then the queue records resolution by link.
+- **Silence is not approval;** instructor approval must be explicit or already documented. Agent review, favorable automated review or a specialist's self-declared completion is not approval.
+- **Deferred review.** Record instructor-owned choices without resolving them, continue independent work, and present one prioritized question when the instructor asks for review.
+- **Build / feasibility-review / revision** as distinct modes; a reviewer returns an assessment (`feasible`, `feasible-with-risks`, `blocked`) and never grants approval. Disclose when a review was not independent.
+- **Backpressure and decision ownership.** Route an issue to the nearest stage that owns the decision; never silently amend an upstream commitment.
+- **Persistent state in owning artifacts.** Approvals recorded with provenance; avoid duplicate task ledgers or histories. PML uses a small committed `development_state.md` for multi-stage work.
+- **Git history is the archive;** do not keep superseded drafts in the tree.
+
+## Decisions that remain open
+
+Reusing a convention above does not decide the following, which stay open:
+
+- Whether and where a `development_state.md`-style register is used here, and its format (part of Q1/Q3).
+- The stage structure and specialist roles for lectures, paper discussions and artifacts (Q3, Q4); PML's lecture stages (Scope, Section Design, Slide Organization/Design/Authoring) are not adopted.
+- Coordinator duties and its relation to specialists (Q1).
+- Branch-naming and lifecycle rules (PML `docs/branch-management.md`), authority documents and curriculum maps (Q7).
+
 ## Open questions
 
-Status of all questions: open. Each is surfaced in the [instructor review queue](instructor-review-queue.md).
+Status of all questions: open. Each is indexed in the [instructor review queue](instructor-review-queue.md).
 
 - **Q1. Coordinator duties and boundaries.** How are the coordinator's detailed duties and boundaries defined?
 - **Q2. Goals and scientific literacy.** How are course goals, learning objectives and the progression of scientific-literacy skills represented?
@@ -23,4 +44,4 @@ Status of all questions: open. Each is surfaced in the [instructor review queue]
 - **Q4. Shared artifact skills.** What shared artifact-development skills are needed, and how are they reviewed?
 - **Q5. Source authority.** How is source authority established, including classroom transcripts and existing teaching materials?
 - **Q6. Evaluating existing meetings.** How is the effectiveness of existing class meetings evaluated?
-- **Q7. Reuse of PML.** Which further aspects of PML should be reused or modified? Note: at initialization the PML repository (`AGENTS.md`, `course-development` and `lecture-development` skills, `shared/backpressure.md`, the instructor review queue) could not be accessed (HTTP 404, likely private or renamed), so none of its contents have been reviewed. Reusing PML conventions (state, approvals, stage authority, feasibility review) depends on resolving this.
+- **Q7. Further PML reuse.** Which further aspects of PML (beyond those listed above) should be reused or modified?
