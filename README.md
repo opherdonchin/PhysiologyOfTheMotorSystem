@@ -10,13 +10,15 @@ The previous course has a syllabus, textbook chapters, research papers,
 slide decks, assignments and recordings/transcripts. We are currently
 **developing the course-development process**, not redesigning the course.
 The Q1 Course and Meeting Coordinator skills and shared governance are in place.
-The two instructional workflows and reusable artifact skills (Q3/Q4), and
-course goals/pedagogy (Q2), remain open.
+The instructor-approved [course goals](docs/course-goals.md) (Q2) are recorded.
+The two instructional workflows and reusable artifact skills (Q3/Q4) remain open.
+The two-repository publication architecture has been agreed but not implemented.
 
 ## Contents
 
 - [`AGENTS.md`](AGENTS.md) - brief guidance for agents working in this repository.
-- [`docs/principles-and-questions.md`](docs/principles-and-questions.md) - accepted principles, reused PML conventions, and open questions.
+- [`docs/course-goals.md`](docs/course-goals.md) - Q2 instructor-approved course goals and assessment boundaries.
+- [`docs/principles-and-questions.md`](docs/principles-and-questions.md) - accepted principles, publishing-architecture decision, reused PML conventions, and open questions.
 - [`docs/instructor-review-queue.md`](docs/instructor-review-queue.md) - index of unresolved instructor decisions.
 - [`docs/branch-register.md`](docs/branch-register.md) - best-effort record of coordinator-created branches.
 - [`docs/pml-reference.md`](docs/pml-reference.md) - exact PML source commit, historical precedents and local adaptations.

@@ -4,7 +4,7 @@ Repository-level guidance for agents working on Physiology of the Motor System.
 
 ## Start here
 
-- Read [accepted principles and questions](docs/principles-and-questions.md). The accepted Q1 design is binding; Q2–Q7 remain open.
+- Read [accepted principles and questions](docs/principles-and-questions.md). Q1 coordination and Q2 course goals are accepted; Q3–Q7 remain open. Read the [instructor-approved course goals](docs/course-goals.md) before making course-wide or meeting-level instructional proposals.
 - For course-wide development and resource/architecture work, read [Course Development Coordinator](.agents/skills/course-development/SKILL.md).
 - For individual textbook lectures or research-paper discussions, read [Meeting Development Coordinator](.agents/skills/meeting-development/SKILL.md).
 - Both coordinators must follow [shared coordination](.agents/skills/shared/coordination.md), including initiator-authorized branch creation/merging, routine unpermissioned commits/pushes, cross-level delegation, instructor-facing conversation continuity and backpressure.
@@ -19,6 +19,6 @@ Repository-level guidance for agents working on Physiology of the Motor System.
 
 ## Current boundaries
 
-The Q1 **coordinator foundation** is in place. The textbook-lecture and paper-discussion *instructional workflows* (Q3) and shared artifact skills (Q4) are **not implemented**. Do not import PML's five lecture stages by implication or claim these missing skills ran. Course goals, source authority, evaluation and further PML reuse (Q2/Q5–Q7) are still open.
+The Q1 **coordinator foundation** is in place. The textbook-lecture and paper-discussion *instructional workflows* (Q3) and shared artifact skills (Q4) are **not implemented**. Do not import PML's five lecture stages by implication or claim these missing skills ran. Course goals and scientific-literacy boundaries are accepted under Q2. Source authority, evaluation and further PML reuse (Q5–Q7) remain open.
 
 Importing existing copyrighted readings, recordings, transcripts or prior slide decks requires an instructor-authorized scope and appropriate consideration of source rights and privacy; final resolution of Q5 is not a prerequisite to every individually authorized import. HILD is a reference, **not installed**; do not install it without explicit instructor instruction.

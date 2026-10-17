@@ -52,11 +52,11 @@ When repeated course-wide work needs continuity, create or update a compact reso
 
 ## Develop course-level authority with the instructor
 
-**Recommended document ownership model (proposal, not a settled Q2/Q7 choice):** model the separation on PML's course architecture, planned/actual curriculum maps and meeting-local contracts, while making goals explicitly distinguishable from pedagogical methods. If an adopted owner already exists, revise it instead of creating a duplicate.
+**Document ownership:** [Course goals](../../../docs/course-goals.md) are now adopted under Q2. A separate course architecture, planned/actual curriculum maps and meeting-local contracts remain proposals under Q3/Q7, modeled provisionally on PML where useful. Keep goals distinct from pedagogical methods; revise an adopted owner rather than creating a duplicate.
 
 | Proposed owner / file | What it should own | What it should not claim |
 | --- | --- | --- |
-| **Course goals** — candidate `docs/course-goals.md` | Why the course exists; intended disciplinary knowledge, scientific-literacy abilities and success criteria, developed with the instructor | A teaching technique, a list of slides or an inferred goal based only on old material |
+| **Course goals** — adopted [docs/course-goals.md](../../../docs/course-goals.md) | Approved disciplinary, reading and writing goals and the agreed assessment boundaries | A teaching technique, a detailed assessment policy, a list of slides or an inferred goal based only on old material |
 | **Course architecture** — candidate `docs/course-architecture.md` | Course-wide intellectual argument, organization, rationale, progression, relationship of instructional methods to approved goals | Detailed ownership of every individual meeting or unilateral changes to adopted goals |
 | **Planned curriculum map** — candidate `docs/curriculum-map-planned.md` | Meeting-level intended topics, sources, progression, student preparation and activities; clear proposal/approval status | A claim of delivery, attendance or learning |
 | **Actual curriculum map** — candidate `docs/curriculum-map-actual.md` | Evidence of substantive topics and activities that actually occurred, recorded *after* each meeting with uncertainty distinguished | An automatic copy of the plan or a claim of student mastery without evidence |
@@ -64,7 +64,7 @@ When repeated course-wide work needs continuity, create or update a compact reso
 | **Student syllabus** — format/location to be decided | Student-facing summary of approved plans, obligations and assessment | A parallel, conflicting intellectual authority |
 | **Process decisions and state** — existing `docs/principles-and-questions.md`, review queue, branch register | Governance, unanswered instructor choices, current workstreams | A duplicate course-architecture or curriculum ledger |
 
-These are **proposed defaults for discussion**, not files to create automatically. Their exact division and format can change under Q2/Q7; the contents of educational goals and teaching methods have **not** been decided. Course goals should remain conceptually separate from methods whether stored in different files or clearly separate sections of an agreed document.
+**Only the course-goals document is currently adopted.** The other files and divisions remain proposals, not files to create automatically; Q3/Q7 will determine whether and how to adopt them. Q2 settled the course goals but did not prescribe teaching methods, instructional stage structures, or further assessment rules.
 
 To create or revise course authority:
 

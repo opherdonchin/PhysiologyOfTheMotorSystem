@@ -16,8 +16,8 @@ question is presented when the instructor asks for review.
 | ID | Owning document | Work awaiting decision | Status |
 |---|---|---|---|
 | Q1 | [Coordinator duties and boundaries](principles-and-questions.md#q1-coordinator-duties-and-boundaries) | Design of two coordinators, shared rules and branch governance | **resolved 2026-10-17**; Q1 coordinator implementation squash-merged into `main` with instructor authorization |
-| Q2 | [Goals and scientific literacy](principles-and-questions.md#q2-goals-and-scientific-literacy) | Represent goals, objectives, scientific-literacy progression | open; not yet investigated |
-| Q3 | [Lecture vs. paper-discussion workflows](principles-and-questions.md#q3-lecture-vs-paper-discussion-workflows) | Decide distinct workflows and stages | open; not yet investigated |
+| Q2 | [Accepted course goals](course-goals.md) ([decision record](principles-and-questions.md#q2-goals-and-scientific-literacy)) | Physiology, guided paper reading, developing ideas through writing; no assessed critical-evaluation skill or formal weekly milestones | **resolved 2026-10-17**; instructor-approved wording and boundaries recorded |
+| Q3 | [Lecture vs. paper-discussion workflows](principles-and-questions.md#q3-lecture-vs-paper-discussion-workflows) | Decide distinct workflows and stages | open; next instructional-design focus |
 | Q4 | [Shared artifact skills](principles-and-questions.md#q4-shared-artifact-skills) | Decide skills needed and their review | open; not yet investigated |
 | Q5 | [Source authority](principles-and-questions.md#q5-source-authority) | Establish authority of transcripts and existing materials | open; imports need instructor-authorized scope |
 | Q6 | [Evaluating existing meetings](principles-and-questions.md#q6-evaluating-existing-meetings) | Decide how effectiveness is evaluated | open; not yet investigated |
